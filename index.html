@@ -170,6 +170,49 @@
 </head>
 <body>
 
-<a href="https://ytenok2024.github.io/plugin.github.io/" class="main-button">Плагины</a>
+<a href="install.html" class="main-button">Плагины</a>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<style>
+  .donate-button-container {
+    position: fixed; /* Фиксированное позиционирование */
+    left: 50%; /* Положение по горизонтали */
+    bottom: 10px; /* Отступ снизу */
+    transform: translateX(-50%); /* Смещение для центрирования */
+    animation: pulse 2s infinite; /* Анимация пульсации */
+  }
+
+  .donate-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white; /* Белый текст */
+    border: none;
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s; /* Плавное изменение фона при наведении */
+  }
+
+  .donate-button:hover {
+    background-color: #45a049; /* Темно-зеленый фон при наведении */
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+</style>
+</head>
+<body>
+
+<div class="donate-button-container">
+  <form action="https://www.donationalerts.com/c/helbest375" method="post">
+    <button type="submit" class="donate-button">Пожертвовать</button>
+  </form>
+</div>
 
 </body>
+</html>
