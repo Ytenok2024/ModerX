@@ -85,5 +85,53 @@
   <!-- Добавьте дополнительные плагины здесь -->
 </div>
 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Новая страница</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #333; /* Темно-серый текст */
+    background-color: #ccc; /* Светло-серый фон */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: background-color 0.3s, box-shadow 0.2s, transform 0.2s;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .back-button:hover {
+    background-color: #bbb; /* Средне-серый фон при наведении */
+    box-shadow: 0 5px #666;
+  }
+  .back-button:active {
+    background-color: #aaa; /* Темно-серый фон при нажатии */
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+</style>
+</head>
+<body>
+
+<!-- Кнопка Назад -->
+<button class="back-button" onclick="history.back()">Назад</button>
+
+<script>
+// Дополнительный JavaScript для кнопки, если необходим
+</script>
+
 </body>
 </html>
